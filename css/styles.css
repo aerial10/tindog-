@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+.lal{
+  width: 60%;
+}
+#title{
+  background-color: #ff4c68;
+color: #fff;
+
+}
+h1,h2,h3,h4,h5.h6{
+    font-family: 'Lilita One', cursive;
+}
+
+h3{
+    font-family: 'Lilita One', cursive;
+}
+p{
+  color: #8f8f8f;
+}
+h2{
+font-family: 'Lilita One', cursive;
+font-size: 3rem;
+line-height: 1.5;
+}
+/* headings */
+.h1{
+  font-family: 'Lilita One', cursive;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* navbar */
+.navbar{
+  padding: 0 0 4.5rem
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'font-family: 'Montserrat', sans-serif;'
+}
+/* buttons download */
+.download-btn{
+  margin: 5% 3% 5% 0%;
+}
+/* title img */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+/* features section */
+#features{
+padding: 7% 15%;
+background-color:#fff;
+position: relative;
+
+}
+.feature-box{
+  text-align: center;
+padding: 5%
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* testomonial section */
+#testimonials{
+ text-align: center;
+ background-color: #ef8172;
+ color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+/* pricing section*/
+#pricing{
+  padding: 20px;
+  text-align: center;
+}
+.pricing-coloum{
+  padding: 3% 2%;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* CTA section */
+#cta{
+  background-color: #ff4c68;
+padding: 7% 15%;
+font-family:font-family: 'Lilita One', cursive;
+  text-align: center;
+}
+.footer-h3{
+  font-size: 4rem;
+  color: #fff;
+
+}
+/* footer section */
+#footer{
+  text-align: center;
+  padding: 5%;
+}
+.social-icon{
+  margin: 20px 10px;
+}
